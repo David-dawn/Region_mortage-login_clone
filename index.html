@@ -30,8 +30,12 @@
                     </div>
                     <div class="input-group">
                         <label for="password">Password</label>
-                        <input type="password" id="password" placeholder="••••••••••" required>
+                        <div class="password-wrapper">
+                            <input type="password" id="password" placeholder="••••••••••" required>
+                            <span id="toggle-password" class="show-password">Show</span> <!-- The 'Show' text inside the password field -->
+                        </div>
                     </div>
+                    
                     <div class="remember-me">
                         <input type="checkbox" id="remember" checked>
                         <label for="remember">Remember me</label>
@@ -54,10 +58,9 @@
 
         <!-- Right Section: House Image -->
         <div class="right-section">
-           
         </div>
     </div>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
